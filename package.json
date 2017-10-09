@@ -1,0 +1,33 @@
+{
+  "name": "prajna-dejavu",
+  "version": "1.0.0",
+  "description": "log grouping and replay for prajna",
+  "main": "index.js",
+  "scripts": {
+    "build": "node $NODE_DEBUG_OPTION node_modules/.bin/webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungLeeNENU/prajna-dejavu.git"
+  },
+  "keywords": [
+    "log",
+    "grouping",
+    "replay"
+  ],
+  "author": "Young Lee <youngleemails@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YoungLeeNENU/prajna-dejavu/issues"
+  },
+  "homepage": "https://github.com/YoungLeeNENU/prajna-dejavu#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "path": "^0.12.7",
+    "source-map-loader": "^0.2.2",
+    "typescript": "^2.5.3",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.6.0"
+  }
+}
