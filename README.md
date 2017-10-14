@@ -2,6 +2,6 @@
 Log grouping and replay for Prajna
 
 ### Installation
-```javascript
+```shell
 npm install --save prajna-dejavu
 ```
