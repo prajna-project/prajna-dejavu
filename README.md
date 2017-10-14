@@ -1,4 +1,5 @@
-## *Déjà vu*, Log grouping and replay for Prajna
+## *Déjà vu*
+Log grouping and replay for Prajna
 
 ### Installation
 ```javascript
