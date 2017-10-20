@@ -4,8 +4,8 @@
   "description": "log grouping and replay for prajna",
   "main": "index.js",
   "scripts": {
-    "build": "node $NODE_DEBUG_OPTION node_modules/.bin/webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node $NODE_DEBUG_OPTION node_modules/.bin/webpack --watch",
+    "build": "node $NODE_DEBUG_OPTION node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,9 @@
     "typescript": "^2.5.3",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "@types/md5": "^2.1.32",
+    "md5": "^2.2.1"
   }
 }
