@@ -1,6 +1,6 @@
 {
   "name": "prajna-dejavu",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "description": "log grouping and replay for prajna",
   "main": "index.js",
   "scripts": {
